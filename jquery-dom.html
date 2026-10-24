@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native JavaScript vs jQuery</title>
+
+    <style>
+        .myStyle {
+            background-color: coral;
+            padding: 16px;
+        }
+
+        #myDIV {
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- jQuery 4.0.0 Full Build -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+
+    <h1>jQuery DOM Manipulation</h1>
+
+    <h3>(a) Change Text</h3>
+    <div id="myElement">Original Text</div>
+
+    <h3>(b) Add CSS Class</h3>
+    <div id="myDIV">
+        <p>I am a myDIV.</p>
+    </div>
+
+    <h3>(c) Handle Button Click</h3>
+    <button id="myButton">Click me</button>
+
+    <script>
+        // (a) Replace the text using jQuery
+        $("#myElement").text("Modified Text");
+
+        // (b) Add the CSS class using jQuery
+        $("#myDIV").addClass("myStyle");
+
+        // (c) Respond to a button click using jQuery
+        $("#myButton").on("click", function() {
+            alert("Button clicked!");
+        });
+    </script>
+
+</body>
+</html>
