@@ -41,13 +41,13 @@ Why an existing project may use jQuery: It may already depend on jQuery for DOM 
 
 Setup Instructions
 
-1 Download or clone this repository to your computer.
-2 Open the project folder in Visual Studio Code.
-3 Install the Live Server extension if it is not already installed.
-4 Right-click books.html and select Open with Live Server.
-5 Check that the book information appears correctly.
-6 Open jquery-dom.html with Live Server.
-7 Check that the text changes, the coral background appears, and the button displays the alert.
+1.  Download or clone this repository to your computer.
+2.  Open the project folder in Visual Studio Code.
+3.  Install the Live Server extension if it is not already installed.
+4.  Right-click books.html and select Open with Live Server.
+5.  Check that the book information appears correctly.
+6.  Open jquery-dom.html with Live Server.
+7.  Check that the text changes, the coral background appears, and the button displays the alert.
 
 Important: Run books.html through a local server instead of opening it directly using file://. An internet connection is required to load jQuery from the CDN.
 
