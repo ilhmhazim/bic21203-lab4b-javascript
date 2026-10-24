@@ -71,7 +71,8 @@ output: jQuery Output
 
 Output: Button Alert
 
-![Uploading image.png…]()
+<img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/217e2f81-67f4-4dc0-a720-38659f39a8c8" />
+
 
 
 GitHub Repository
