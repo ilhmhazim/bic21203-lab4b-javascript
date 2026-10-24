@@ -14,7 +14,7 @@ To Kill a Mockingbird by Harper Lee
 
 Each book contains a title, author, publication year, and genres. The JSON file uses the correct data types and has no trailing commas.
 
-Question 2: Retrieve and Display JSON Data
+# Question 2: Retrieve and Display JSON Data
 
 The books.html file uses the JavaScript fetch() API to retrieve information from books.json.
 
@@ -28,7 +28,7 @@ The genres of both books, grouped by book title.
 
 The code uses textContent and createElement() to display text safely. Error handling is included if the JSON file cannot be loaded or the data is invalid.
 
-Question 3: Compare Native JavaScript and jQuery
+# Question 3: Compare Native JavaScript and jQuery
 
 The jquery-dom.html file uses jQuery 4.0.0 from the official CDN.
 
