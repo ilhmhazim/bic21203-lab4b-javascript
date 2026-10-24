@@ -31,9 +31,9 @@ The jquery-dom.html file uses jQuery 4.0.0 from the official CDN.
 
 The three operations are:
 
-1 .text() changes the text to "Modified Text".
-2 .addClass() adds the myStyle class to #myDIV.
-3 .on("click", ...) displays an alert when the button is clicked.
+1. .text() changes the text to "Modified Text".
+2. .addClass() adds the myStyle class to #myDIV.
+3. .on("click", ...) displays an alert when the button is clicked.
 
 Advantage of native JavaScript: It does not require an external library.
 
