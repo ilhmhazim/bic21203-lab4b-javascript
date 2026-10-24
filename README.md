@@ -13,6 +13,12 @@ The books.json file contains two book objects:
 
 Each book contains a title, author, publication year, and genres. The JSON file uses the correct data types and has no trailing commas.
 
+
+Output
+
+<img width="702" height="591" alt="image" src="https://github.com/user-attachments/assets/06bf4cd2-4401-4960-878e-cc47517d5ce8" />
+
+
 # Question 2: Retrieve and Display JSON Data
 
 The books.html file uses the JavaScript fetch() API to retrieve information from books.json.
@@ -24,6 +30,11 @@ The webpage displays:
 - The genres of both books, grouped by book title.
 
 The code uses textContent and createElement() to display text safely. Error handling is included if the JSON file cannot be loaded or the data is invalid.
+
+Output
+
+<img width="953" height="441" alt="image" src="https://github.com/user-attachments/assets/0bd3bce3-e29b-4651-8622-e51c307f186e" />
+
 
 # Question 3: Compare Native JavaScript and jQuery
 
@@ -37,23 +48,17 @@ The three operations are:
 
 Advantage of native JavaScript: It does not require an external library.
 
-Why an existing project may use jQuery: It may already depend on jQuery for DOM manipulation and event handling, so keeping it can avoid rewriting existing code.
+Why an existing project may use jQuery: It may already use jQuery for DOM manipulation and event handling.
 
 Setup Instructions
 
-1.  Download or clone this repository to your computer.
-2.  Open the project folder in Visual Studio Code.
-3.  Install the Live Server extension if it is not already installed.
-4.  Right-click books.html and select Open with Live Server.
-5.  Check that the book information appears correctly.
-6.  Open jquery-dom.html with Live Server.
-7.  Check that the text changes, the coral background appears, and the button displays the alert.
+1. Open the project folder in Visual Studio Code.
+2. Install the Live Server extension.
+3. Right-click books.html and select Open with Live Server.
+4. Check that the book information appears correctly.
+5. Open jquery-dom.html with Live Server and test all three operations.
 
-Important: Run books.html through a local server instead of opening it directly using file://. An internet connection is required to load jQuery from the CDN.
 
-Screenshots
-
-Add your actual screenshots to the screenshots folder.
 
 Question 1: JSON File
 
