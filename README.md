@@ -8,9 +8,8 @@ This project demonstrates how to create JSON data, retrieve and display JSON usi
 
 The books.json file contains two book objects:
 
-The Great Gatsby by F. Scott Fitzgerald
-
-To Kill a Mockingbird by Harper Lee
+- The Great Gatsby by F. Scott Fitzgerald
+- To Kill a Mockingbird by Harper Lee
 
 Each book contains a title, author, publication year, and genres. The JSON file uses the correct data types and has no trailing commas.
 
