@@ -19,11 +19,9 @@ The books.html file uses the JavaScript fetch() API to retrieve information from
 
 The webpage displays:
 
-The title of the first book.
-
-The author of the second book.
-
-The genres of both books, grouped by book title.
+- The title of the first book.
+- The author of the second book.
+- The genres of both books, grouped by book title.
 
 The code uses textContent and createElement() to display text safely. Error handling is included if the JSON file cannot be loaded or the data is invalid.
 
@@ -33,11 +31,9 @@ The jquery-dom.html file uses jQuery 4.0.0 from the official CDN.
 
 The three operations are:
 
-.text() changes the text to "Modified Text".
-
-.addClass() adds the myStyle class to #myDIV.
-
-.on("click", ...) displays an alert when the button is clicked.
+1 .text() changes the text to "Modified Text".
+2 .addClass() adds the myStyle class to #myDIV.
+3 .on("click", ...) displays an alert when the button is clicked.
 
 Advantage of native JavaScript: It does not require an external library.
 
@@ -45,19 +41,13 @@ Why an existing project may use jQuery: It may already depend on jQuery for DOM 
 
 Setup Instructions
 
-Download or clone this repository to your computer.
-
-Open the project folder in Visual Studio Code.
-
-Install the Live Server extension if it is not already installed.
-
-Right-click books.html and select Open with Live Server.
-
-Check that the book information appears correctly.
-
-Open jquery-dom.html with Live Server.
-
-Check that the text changes, the coral background appears, and the button displays the alert.
+1 Download or clone this repository to your computer.
+2 Open the project folder in Visual Studio Code.
+3 Install the Live Server extension if it is not already installed.
+4 Right-click books.html and select Open with Live Server.
+5 Check that the book information appears correctly.
+6 Open jquery-dom.html with Live Server.
+7 Check that the text changes, the coral background appears, and the button displays the alert.
 
 Important: Run books.html through a local server instead of opening it directly using file://. An internet connection is required to load jQuery from the CDN.
 
