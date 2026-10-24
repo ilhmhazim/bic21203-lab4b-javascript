@@ -58,22 +58,20 @@ Setup Instructions
 4. Check that the book information appears correctly.
 5. Open jquery-dom.html with Live Server and test all three operations.
 
+Native JavaScript does not require an external library. However, an existing project may continue using jQuery if it already depends on it for DOM manipulation and event handling.
+
+Output
+
+The webpage displays "Modified Text", applies a coral background to #myDIV, and shows an alert saying "Button clicked!" when the button is clicked.
+
+output: jQuery Output
+
+<img width="948" height="497" alt="image" src="https://github.com/user-attachments/assets/06e694c2-dc28-40d2-819c-35d0f5f3b28c" />
 
 
-Question 1: JSON File
+Output: Button Alert
 
-
-
-Question 2: JSON Output
-
-
-
-Question 3: jQuery Output
-
-
-
-Question 3: Button Alert
-
+![Uploading image.png…]()
 
 
 GitHub Repository
