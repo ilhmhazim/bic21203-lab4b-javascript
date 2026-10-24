@@ -1,4 +1,7 @@
 # bic21203-lab4b-javascript
+Name: Muhammad Ilham Hazim bin Rosdi
+
+Student ID: CI250023
 
 Project Description
 
@@ -73,4 +76,6 @@ Output: Button Alert
 <img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/217e2f81-67f4-4dc0-a720-38659f39a8c8" />
 
 
-This project helped me learn how to structure JSON data, retrieve and display JSON using JavaScript, and manipulate webpage elements using jQuery. I also learned how to test HTML files using Live Server and handle errors when loading JSON data.
+Reflection
+
+In this project, I learned how to create JSON data, use JavaScript fetch() to retrieve and display book information, and use jQuery to change text, add CSS classes, and handle button clicks. I also learned how to run HTML files using Live Server and handle errors when loading JSON data. This project helped me understand how JavaScript and jQuery work together to make a webpage more interactive.
