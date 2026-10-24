@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Information</title>
+</head>
+<body>
+    <h1>Book Information</h1>
+
+    <div id="output">
+        <p>Loading book information...</p>
+    </div>
+
+    <script>
+        async function loadBooks() {
+            const output = document.getElementById("output");
+
+            try {
+                const response = await fetch("books.json");
+
+                if (!response.ok) {
+                    throw new Error("Unable to load the JSON file.");
+                }
+
+                const data = await response.json();
+
+                if (!Array.isArray(data.books) || data.books.length < 2) {
+                    throw new Error("The book data is invalid.");
+                }
+
+                output.textContent = "";
+
+                // (a) Display the title of the first book
+                const firstTitle = document.createElement("p");
+                firstTitle.textContent =
+                    "First Book Title: " + data.books[0].title;
+                output.appendChild(firstTitle);
+
+                // (b) Display the author of the second book
+                const secondAuthor = document.createElement("p");
+                secondAuthor.textContent =
+                    "Second Book Author: " + data.books[1].author;
+                output.appendChild(secondAuthor);
+
+                // (c) Display genres grouped by book title
+                const heading = document.createElement("h2");
+                heading.textContent = "Genres by Book";
+                output.appendChild(heading);
+
+                data.books.forEach(function(book) {
+                    const bookInfo = document.createElement("p");
+                    bookInfo.textContent =
+                        book.title + " — " + book.genres.join(", ");
+                    output.appendChild(bookInfo);
+                });
+
+            } catch (error) {
+                output.textContent =
+                    "Sorry, unable to load book information. " +
+                    "Please check the JSON file and try again.";
+            }
+        }
+
+        loadBooks();
+    </script>
+</body>
+</html>
