@@ -69,6 +69,9 @@ output: jQuery Output
 <img width="948" height="497" alt="image" src="https://github.com/user-attachments/assets/06e694c2-dc28-40d2-819c-35d0f5f3b28c" />
 
 
+
+
+
 Output: Button Alert
 
 <img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/217e2f81-67f4-4dc0-a720-38659f39a8c8" />
